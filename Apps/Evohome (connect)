@@ -245,7 +245,7 @@ void manageAuth() {
 		log.info "${app.label}: manageAuth(): Auth has failed. Authenticating..."
 		authenticate()
 	}
-	else if (!atomicState.evohomeAuth.expiresAt.isNumber() || now() >= atomicState.evohomeAuth.expiresAt) {
+	else if (!atomicState.evohomeAuth.expiresAt.toString().isNumber() || now() >= atomicState.evohomeAuth.expiresAt) {
 	
 		log.info "${app.label}: manageAuth(): Auth Token has expired. Authenticating..."
 		authenticate()
