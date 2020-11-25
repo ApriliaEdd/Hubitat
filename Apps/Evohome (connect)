@@ -505,7 +505,7 @@ private authenticate() {
 		uri: 'https://mytotalconnectcomfort.com/WebApi',
 		path: '/Auth/OAuth/Token',
 		headers: [
-			'Authorization': 'Basic YjAxM2FhMjYtOTcyNC00ZGJkLTg4OTctMDQ4YjlhYWRhMjQ5OnRlc3Q=',
+			'Authorization': ',
 			'Accept': 'application/json, application/xml, text/json, text/x-json, text/javascript, text/xml',
 			'Content-Type':	'application/x-www-form-urlencoded; charset=utf-8'
 		],
@@ -577,7 +577,7 @@ private refreshAuthToken() {
 		uri: 'https://mytotalconnectcomfort.com/WebApi',
 		path: '/Auth/OAuth/Token',
 		headers: [
-			'Authorization': 'Basic YjAxM2FhMjYtOTcyNC00ZGJkLTg4OTctMDQ4YjlhYWRhMjQ5OnRlc3Q=',
+			'Authorization': 'Basic ',
 			'Accept': 'application/json, application/xml, text/json, text/x-json, text/javascript, text/xml',
 			'Content-Type':	'application/x-www-form-urlencoded; charset=utf-8'
 		],
